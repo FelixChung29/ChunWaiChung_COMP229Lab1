@@ -3,18 +3,18 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 
 function Home() {
-const mainContentStyle = {
-  backgroundImage: "url('/bg.png')",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center center",
-  backgroundSize: "cover",
-  backgroundAttachment: "fixed",  
-  minHeight: "100vh",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "flex-start",
-  paddingTop: "10vh",
-};
+  const mainContentStyle = {
+    backgroundImage: "url('/bg.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
+    backgroundAttachment: "fixed",
+    minHeight: "100vh",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "flex-start",
+    paddingTop: "10vh",
+  };
 
   return (
     <div className="home-wrapper">
@@ -35,4 +35,4 @@ const mainContentStyle = {
   );
 }
 
-
+export default Home;

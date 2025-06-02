@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App; <div className="logo">K<span className="dot">.</span></div>
+export default App;
