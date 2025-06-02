@@ -1,0 +1,32 @@
+.services-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.service-card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  background: #fff3e6;
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 48px;
+  margin-bottom: 12px;
+}
