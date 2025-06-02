@@ -35,4 +35,4 @@ const mainContentStyle = {
   );
 }
 
-export default Home;
+
